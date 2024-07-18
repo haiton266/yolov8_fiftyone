@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['4 wheel vehicle', 'face', 'motorcycle']
+
+roboflow:
+  workspace: demo-tracking
+  project: demo-tracking
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/demo-tracking/demo-tracking/dataset/7
