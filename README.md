@@ -10,6 +10,12 @@ Install the required packages by running:
 pip install -r requirements.txt
 ```
 
+### File structure
+
+- `main.py`: use for detection task without evaluation
+- `detection_fiftyone.ipynb`: use for detection task
+- `segmentation_fiftyone.ipynb`: use for segmentation task
+
 ### Usage
 
 - Run result of model by:
